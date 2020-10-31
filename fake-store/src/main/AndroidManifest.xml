@@ -18,6 +18,14 @@
 <manifest package="com.android.vending"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+<<<<<<< HEAD
+=======
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="23"/>
+
+    <permission android:name="com.android.vending.CHECK_LICENSE" android:protectionLevel="normal"/>
+>>>>>>> ef5c99aa8f685e6ad8e21b20dbf812b33c1d7e6c
     <uses-permission android:name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
     <application
         android:forceQueryable="true"
